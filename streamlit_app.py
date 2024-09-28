@@ -1,7 +1,7 @@
 import streamlit as st
 import google.generativeai as genai
 
-st.title("🎈 My Chatbot App")
+st.title("🎈 Cat Training App")
 
 if st.button('Clear', type="primary"):
     st.session_state.chat_history.clear()
